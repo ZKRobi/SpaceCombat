@@ -443,6 +443,49 @@ ModelImporter:
     4300154: pCylinder2
     4300156: pCylinder1
     4300158: pCylinder2
+    6400000: hull1
+    6400002: pCylinder1
+    6400004: pCylinder1 1
+    6400006: pCylinder1 10
+    6400008: pCylinder1 11
+    6400010: pCylinder1 12
+    6400012: pCylinder1 13
+    6400014: pCylinder1 2
+    6400016: pCylinder1 3
+    6400018: pCylinder1 4
+    6400020: pCylinder1 5
+    6400022: pCylinder1 6
+    6400024: pCylinder1 7
+    6400026: pCylinder1 8
+    6400028: pCylinder1 9
+    6400030: pCylinder2
+    6400032: pCylinder2 1
+    6400034: pCylinder2 10
+    6400036: pCylinder2 11
+    6400038: pCylinder2 12
+    6400040: pCylinder2 13
+    6400042: pCylinder2 2
+    6400044: pCylinder2 3
+    6400046: pCylinder2 4
+    6400048: pCylinder2 5
+    6400050: pCylinder2 6
+    6400052: pCylinder2 7
+    6400054: pCylinder2 8
+    6400056: pCylinder2 9
+    6400058: turret
+    6400060: turret1
+    6400062: turret10
+    6400064: turret11
+    6400066: turret12
+    6400068: turret13
+    6400070: turret2
+    6400072: turret3
+    6400074: turret4
+    6400076: turret5
+    6400078: turret6
+    6400080: turret7
+    6400082: turret8
+    6400084: turret9
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -486,8 +529,8 @@ ModelImporter:
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 3
-  importAnimation: 1
+    tangentImportMode: 0
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     human: []
