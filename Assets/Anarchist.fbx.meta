@@ -1,0 +1,510 @@
+fileFormatVersion: 2
+guid: b2c4604fd77dc7942901debe13dfdd5d
+timeCreated: 1458832770
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: turret_l1
+    100004: turret_l2
+    100006: turret_l3
+    100008: turret_l4
+    100010: turret_l5
+    100012: turret_l6
+    100014: turret_r1
+    100016: turret_r2
+    100018: turret_r3
+    100020: turret_r4
+    100022: turret_r5
+    100024: turret_r6
+    100026: gun1
+    100028: gun1 1
+    100030: gun1 10
+    100032: gun1 11
+    100034: gun1 2
+    100036: gun1 3
+    100038: gun1 4
+    100040: gun1 5
+    100042: gun1 6
+    100044: gun1 7
+    100046: gun1 8
+    100048: gun1 9
+    100050: gun2
+    100052: gun2 1
+    100054: gun2 10
+    100056: gun2 11
+    100058: gun2 2
+    100060: gun2 3
+    100062: gun2 4
+    100064: gun2 5
+    100066: gun2 6
+    100068: gun2 7
+    100070: gun2 8
+    100072: gun2 9
+    100074: hull
+    100076: left
+    100078: guns
+    100080: guns 1
+    100082: guns 10
+    100084: guns 11
+    100086: guns 2
+    100088: guns 3
+    100090: guns 4
+    100092: guns 5
+    100094: guns 6
+    100096: guns 7
+    100098: guns 8
+    100100: guns 9
+    100102: locator1
+    100104: turret
+    100106: turret1
+    100108: turret10
+    100110: turret11
+    100112: turret12
+    100114: turret13
+    100116: turret2
+    100118: turret3
+    100120: turret4
+    100122: turret5
+    100124: turret6
+    100126: turret7
+    100128: turret8
+    100130: turret9
+    100132: bottom
+    100134: hull1
+    100136: pCylinder1
+    100138: pCylinder1 1
+    100140: pCylinder1 10
+    100142: pCylinder1 11
+    100144: pCylinder1 12
+    100146: pCylinder1 13
+    100148: pCylinder1 2
+    100150: pCylinder1 3
+    100152: pCylinder1 4
+    100154: pCylinder1 5
+    100156: pCylinder1 6
+    100158: pCylinder1 7
+    100160: pCylinder1 8
+    100162: pCylinder1 9
+    100164: pCylinder2
+    100166: pCylinder2 1
+    100168: pCylinder2 10
+    100170: pCylinder2 11
+    100172: pCylinder2 12
+    100174: pCylinder2 13
+    100176: pCylinder2 2
+    100178: pCylinder2 3
+    100180: pCylinder2 4
+    100182: pCylinder2 5
+    100184: pCylinder2 6
+    100186: pCylinder2 7
+    100188: pCylinder2 8
+    100190: pCylinder2 9
+    100192: guns 12
+    100194: guns 13
+    400000: //RootNode
+    400002: turret_l1
+    400004: turret_l2
+    400006: turret_l3
+    400008: turret_l4
+    400010: turret_l5
+    400012: turret_l6
+    400014: turret_r1
+    400016: turret_r2
+    400018: turret_r3
+    400020: turret_r4
+    400022: turret_r5
+    400024: turret_r6
+    400026: gun1
+    400028: gun1 1
+    400030: gun1 10
+    400032: gun1 11
+    400034: gun1 2
+    400036: gun1 3
+    400038: gun1 4
+    400040: gun1 5
+    400042: gun1 6
+    400044: gun1 7
+    400046: gun1 8
+    400048: gun1 9
+    400050: gun2
+    400052: gun2 1
+    400054: gun2 10
+    400056: gun2 11
+    400058: gun2 2
+    400060: gun2 3
+    400062: gun2 4
+    400064: gun2 5
+    400066: gun2 6
+    400068: gun2 7
+    400070: gun2 8
+    400072: gun2 9
+    400074: hull
+    400076: left
+    400078: guns
+    400080: guns 1
+    400082: guns 10
+    400084: guns 11
+    400086: guns 2
+    400088: guns 3
+    400090: guns 4
+    400092: guns 5
+    400094: guns 6
+    400096: guns 7
+    400098: guns 8
+    400100: guns 9
+    400102: locator1
+    400104: turret
+    400106: turret1
+    400108: turret10
+    400110: turret11
+    400112: turret12
+    400114: turret13
+    400116: turret2
+    400118: turret3
+    400120: turret4
+    400122: turret5
+    400124: turret6
+    400126: turret7
+    400128: turret8
+    400130: turret9
+    400132: bottom
+    400134: hull1
+    400136: pCylinder1
+    400138: pCylinder1 1
+    400140: pCylinder1 10
+    400142: pCylinder1 11
+    400144: pCylinder1 12
+    400146: pCylinder1 13
+    400148: pCylinder1 2
+    400150: pCylinder1 3
+    400152: pCylinder1 4
+    400154: pCylinder1 5
+    400156: pCylinder1 6
+    400158: pCylinder1 7
+    400160: pCylinder1 8
+    400162: pCylinder1 9
+    400164: pCylinder2
+    400166: pCylinder2 1
+    400168: pCylinder2 10
+    400170: pCylinder2 11
+    400172: pCylinder2 12
+    400174: pCylinder2 13
+    400176: pCylinder2 2
+    400178: pCylinder2 3
+    400180: pCylinder2 4
+    400182: pCylinder2 5
+    400184: pCylinder2 6
+    400186: pCylinder2 7
+    400188: pCylinder2 8
+    400190: pCylinder2 9
+    400192: guns 12
+    400194: guns 13
+    2300000: //RootNode
+    2300002: turret_l1
+    2300004: turret_l2
+    2300006: turret_l3
+    2300008: turret_l4
+    2300010: turret_l5
+    2300012: turret_l6
+    2300014: turret_r1
+    2300016: turret_r2
+    2300018: turret_r3
+    2300020: turret_r4
+    2300022: turret_r5
+    2300024: turret_r6
+    2300026: gun1
+    2300028: gun1 1
+    2300030: gun1 10
+    2300032: gun1 11
+    2300034: gun1 2
+    2300036: gun1 3
+    2300038: gun1 4
+    2300040: gun1 5
+    2300042: gun1 6
+    2300044: gun1 7
+    2300046: gun1 8
+    2300048: gun1 9
+    2300050: gun2
+    2300052: gun2 1
+    2300054: gun2 10
+    2300056: gun2 11
+    2300058: gun2 2
+    2300060: gun2 3
+    2300062: gun2 4
+    2300064: gun2 5
+    2300066: gun2 6
+    2300068: gun2 7
+    2300070: gun2 8
+    2300072: gun2 9
+    2300074: hull
+    2300076: turret
+    2300078: turret1
+    2300080: turret10
+    2300082: turret11
+    2300084: turret12
+    2300086: turret13
+    2300088: turret2
+    2300090: turret3
+    2300092: turret4
+    2300094: turret5
+    2300096: turret6
+    2300098: turret7
+    2300100: turret8
+    2300102: turret9
+    2300104: hull1
+    2300106: pCylinder1
+    2300108: pCylinder1 1
+    2300110: pCylinder1 10
+    2300112: pCylinder1 11
+    2300114: pCylinder1 12
+    2300116: pCylinder1 13
+    2300118: pCylinder1 2
+    2300120: pCylinder1 3
+    2300122: pCylinder1 4
+    2300124: pCylinder1 5
+    2300126: pCylinder1 6
+    2300128: pCylinder1 7
+    2300130: pCylinder1 8
+    2300132: pCylinder1 9
+    2300134: pCylinder2
+    2300136: pCylinder2 1
+    2300138: pCylinder2 10
+    2300140: pCylinder2 11
+    2300142: pCylinder2 12
+    2300144: pCylinder2 13
+    2300146: pCylinder2 2
+    2300148: pCylinder2 3
+    2300150: pCylinder2 4
+    2300152: pCylinder2 5
+    2300154: pCylinder2 6
+    2300156: pCylinder2 7
+    2300158: pCylinder2 8
+    2300160: pCylinder2 9
+    3300000: //RootNode
+    3300002: turret_l1
+    3300004: turret_l2
+    3300006: turret_l3
+    3300008: turret_l4
+    3300010: turret_l5
+    3300012: turret_l6
+    3300014: turret_r1
+    3300016: turret_r2
+    3300018: turret_r3
+    3300020: turret_r4
+    3300022: turret_r5
+    3300024: turret_r6
+    3300026: gun1
+    3300028: gun1 1
+    3300030: gun1 10
+    3300032: gun1 11
+    3300034: gun1 2
+    3300036: gun1 3
+    3300038: gun1 4
+    3300040: gun1 5
+    3300042: gun1 6
+    3300044: gun1 7
+    3300046: gun1 8
+    3300048: gun1 9
+    3300050: gun2
+    3300052: gun2 1
+    3300054: gun2 10
+    3300056: gun2 11
+    3300058: gun2 2
+    3300060: gun2 3
+    3300062: gun2 4
+    3300064: gun2 5
+    3300066: gun2 6
+    3300068: gun2 7
+    3300070: gun2 8
+    3300072: gun2 9
+    3300074: hull
+    3300076: turret
+    3300078: turret1
+    3300080: turret10
+    3300082: turret11
+    3300084: turret12
+    3300086: turret13
+    3300088: turret2
+    3300090: turret3
+    3300092: turret4
+    3300094: turret5
+    3300096: turret6
+    3300098: turret7
+    3300100: turret8
+    3300102: turret9
+    3300104: hull1
+    3300106: pCylinder1
+    3300108: pCylinder1 1
+    3300110: pCylinder1 10
+    3300112: pCylinder1 11
+    3300114: pCylinder1 12
+    3300116: pCylinder1 13
+    3300118: pCylinder1 2
+    3300120: pCylinder1 3
+    3300122: pCylinder1 4
+    3300124: pCylinder1 5
+    3300126: pCylinder1 6
+    3300128: pCylinder1 7
+    3300130: pCylinder1 8
+    3300132: pCylinder1 9
+    3300134: pCylinder2
+    3300136: pCylinder2 1
+    3300138: pCylinder2 10
+    3300140: pCylinder2 11
+    3300142: pCylinder2 12
+    3300144: pCylinder2 13
+    3300146: pCylinder2 2
+    3300148: pCylinder2 3
+    3300150: pCylinder2 4
+    3300152: pCylinder2 5
+    3300154: pCylinder2 6
+    3300156: pCylinder2 7
+    3300158: pCylinder2 8
+    3300160: pCylinder2 9
+    4300000: hull
+    4300002: turret_r1
+    4300004: turret_r2
+    4300006: turret_r3
+    4300008: turret_r4
+    4300010: turret_r5
+    4300012: turret_r6
+    4300014: turret_l1
+    4300016: turret_l2
+    4300018: turret_l3
+    4300020: turret_l4
+    4300022: turret_l5
+    4300024: turret_l6
+    4300026: gun1
+    4300028: gun2
+    4300030: gun1
+    4300032: gun2
+    4300034: gun1
+    4300036: gun2
+    4300038: gun1
+    4300040: gun2
+    4300042: gun1
+    4300044: gun2
+    4300046: gun1
+    4300048: gun2
+    4300050: gun1
+    4300052: gun2
+    4300054: gun1
+    4300056: gun2
+    4300058: gun1
+    4300060: gun2
+    4300062: gun1
+    4300064: gun2
+    4300066: gun1
+    4300068: gun2
+    4300070: gun1
+    4300072: gun2
+    4300074: hull1
+    4300076: turret
+    4300078: turret1
+    4300080: turret2
+    4300082: turret3
+    4300084: turret4
+    4300086: turret5
+    4300088: turret6
+    4300090: turret7
+    4300092: turret8
+    4300094: turret9
+    4300096: turret10
+    4300098: turret11
+    4300100: turret12
+    4300102: turret13
+    4300104: pCylinder1
+    4300106: pCylinder2
+    4300108: pCylinder1
+    4300110: pCylinder2
+    4300112: pCylinder1
+    4300114: pCylinder2
+    4300116: pCylinder1
+    4300118: pCylinder2
+    4300120: pCylinder1
+    4300122: pCylinder2
+    4300124: pCylinder1
+    4300126: pCylinder2
+    4300128: pCylinder1
+    4300130: pCylinder2
+    4300132: pCylinder1
+    4300134: pCylinder2
+    4300136: pCylinder1
+    4300138: pCylinder2
+    4300140: pCylinder1
+    4300142: pCylinder2
+    4300144: pCylinder1
+    4300146: pCylinder2
+    4300148: pCylinder1
+    4300150: pCylinder2
+    4300152: pCylinder1
+    4300154: pCylinder2
+    4300156: pCylinder1
+    4300158: pCylinder2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
