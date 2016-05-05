@@ -1,15 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class SpaceshipControl : MonoBehaviour
 {
 
-    public float enginePower = 30;
-    public float maneuverabilityX = 10;
-    public float maneuverabilityY = 5;
-    public float maneuverabilityZ = 10;
+    public float maxThrottle = 15;
+    public float maneuverabilityX = 5;
+    public float maneuverabilityY = 3;
+    public float maneuverabilityZ = 5;
+    public float enginePower = 5;
+
     private float throttle = 0;
-    private Rigidbody rigidbody;
+
+    new private Rigidbody rigidbody;
+
+    public Text throttleText;
 
     // Use this for initialization
     void Start()
@@ -24,11 +30,21 @@ public class SpaceshipControl : MonoBehaviour
         float rotationX = Input.GetAxis("Vertical");
         float rotationZ = -1 * Input.GetAxis("Horizontal");
         float rotationY = Input.GetAxis("Jaw");
-        
-        throttle = enginePower * throttleInput;
+
+        throttle = Mathf.Max(Mathf.Min(throttle + (throttleInput * enginePower * Time.deltaTime), maxThrottle), -1 * maxThrottle);
 
         rigidbody.AddRelativeForce(0, 0, throttle);
 
-        transform.Rotate(new Vector3(rotationX * maneuverabilityX, rotationY*maneuverabilityY, rotationZ * maneuverabilityZ) * Time.deltaTime, Space.Self);
+        transform.Rotate(new Vector3(rotationX * maneuverabilityX, rotationY * maneuverabilityY, rotationZ * maneuverabilityZ) * Time.deltaTime, Space.Self);
+
+        UpdateUI();
+    }
+
+    void UpdateUI()
+    {
+        if (throttleText != null)
+        {
+            throttleText.text = throttle.ToString();
+        }
     }
 }
