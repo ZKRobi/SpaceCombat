@@ -28,8 +28,10 @@ public class TurretControl : MonoBehaviour
 
         transform.localRotation = Quaternion.Euler(turretOriginalRotation.x, transform.localRotation.eulerAngles.y + turretOffset, turretOriginalRotation.z);
 
-        rotationGoal = Quaternion.LookRotation(target.position - gunRoot.position);
+        //-1x, mert fordítva van az ágyúk koordinátarendszere...
+        rotationGoal = Quaternion.LookRotation(-1 * (target.position - gunRoot.position));
         gunRoot.rotation = Quaternion.Slerp(gunRoot.rotation, rotationGoal, Time.deltaTime);
-        gunRoot.localRotation = Quaternion.Euler(-1 * gunRoot.localRotation.eulerAngles.x, gunsOriginalRotation.y, gunsOriginalRotation.z);
+
+        gunRoot.localRotation = Quaternion.Euler(gunRoot.localRotation.eulerAngles.x, gunsOriginalRotation.y, gunsOriginalRotation.z);
     }
 }
