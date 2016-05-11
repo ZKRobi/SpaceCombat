@@ -31,11 +31,19 @@ public class SpaceshipControl : MonoBehaviour
         float rotationZ = -1 * Input.GetAxis("Horizontal");
         float rotationY = Input.GetAxis("Jaw");
 
-        throttle = Mathf.Max(Mathf.Min(throttle + (throttleInput * enginePower * Time.deltaTime), maxThrottle), -1 * maxThrottle);
-
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            throttle = 0;
+        }
+        else
+        {
+            throttle = Mathf.Max(Mathf.Min(throttle + (throttleInput * enginePower * Time.deltaTime), maxThrottle), -1 * maxThrottle);
+        }
         rigidbody.AddRelativeForce(0, 0, throttle);
 
         transform.Rotate(new Vector3(rotationX * maneuverabilityX, rotationY * maneuverabilityY, rotationZ * maneuverabilityZ) * Time.deltaTime, Space.Self);
+
+
 
         UpdateUI();
     }
